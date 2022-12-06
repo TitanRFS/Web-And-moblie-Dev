@@ -11,13 +11,7 @@ $count=0;
 $points=0;
 
 $_SESSION["points"]=$points;
-if($r1==7){
-    $count++;
-}
-if($r2==7){
-    $count++;
-}
-if($r3==7){
+if($r1==7 || $r2==7 || $r3==7){
     $count++;
 }
 if ($count){
